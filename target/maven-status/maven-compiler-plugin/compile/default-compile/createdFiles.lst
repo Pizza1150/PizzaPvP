@@ -1,2 +1,5 @@
+me\Pizza\manager\MatchManager.class
+me\Pizza\data\MatchData.class
+me\Pizza\data\PlayerData.class
 me\Pizza\algorithm\Queue.class
 me\Pizza\PizzaPvP.class

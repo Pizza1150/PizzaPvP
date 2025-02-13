@@ -1,6 +1,7 @@
 package me.Pizza.algorithm;
 
 import me.Pizza.PizzaPvP;
+import me.Pizza.data.MatchData;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.scheduler.BukkitScheduler;
@@ -33,6 +34,7 @@ public class Queue {
 
 				UUID matchID = UUID.randomUUID();
 
+				MatchData match = new MatchData(matchID, List.of(player1, player2));
 
 				Bukkit.broadcastMessage(player1.getName() + " และ " + player2.getName() + " ได้รับการจับคู่แล้ว!");
 			}
