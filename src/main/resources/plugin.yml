@@ -1,0 +1,4 @@
+name: PizzaPvP
+version: '1.0'
+main: me.Pizza.PizzaPvP
+api-version: '1.21'
